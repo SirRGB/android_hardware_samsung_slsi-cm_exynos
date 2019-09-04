@@ -30,9 +30,8 @@ LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_SHARED_LIBRARIES := \
 	liblog \
 	libutils \
-	libexynosutils 
+	libexynosutils
 
 LOCAL_MODULE := libexynosv4l2
-LOCAL_MODULE_TAGS := eng
 
 include $(BUILD_SHARED_LIBRARY)

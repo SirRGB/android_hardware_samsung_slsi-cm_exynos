@@ -54,7 +54,6 @@ LOCAL_HEADER_LIBRARIES := generated_kernel_headers
 LOCAL_SRC_FILES := \
 	ExynosExternalDisplay.cpp
 
-LOCAL_MODULE_TAGS := eng
 LOCAL_MODULE := libhdmi
 include $(BUILD_SHARED_LIBRARY)
 
